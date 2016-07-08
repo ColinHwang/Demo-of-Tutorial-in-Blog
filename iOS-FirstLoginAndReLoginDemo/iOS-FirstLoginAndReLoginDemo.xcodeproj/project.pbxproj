@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B02643B1D2E32340036BF4C /* CHUserDefaultsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B02643A1D2E32340036BF4C /* CHUserDefaultsHelper.m */; };
+		3BA0F21D1D2CF3FF0008E4C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0F21C1D2CF3FF0008E4C7 /* main.m */; };
+		3BA0F2261D2CF3FF0008E4C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA0F2241D2CF3FF0008E4C7 /* Main.storyboard */; };
+		3BA0F2281D2CF3FF0008E4C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA0F2271D2CF3FF0008E4C7 /* Assets.xcassets */; };
+		3BA0F22B1D2CF3FF0008E4C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA0F2291D2CF3FF0008E4C7 /* LaunchScreen.storyboard */; };
+		3BA0F26F1D2D166B0008E4C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0F2551D2D166B0008E4C7 /* AppDelegate.m */; };
+		3BA0F2701D2D166B0008E4C7 /* UIWindow+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0F2581D2D166B0008E4C7 /* UIWindow+Custom.m */; };
+		3BA0F2711D2D166B0008E4C7 /* CHAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0F25B1D2D166B0008E4C7 /* CHAboutViewController.m */; };
+		3BA0F2721D2D166B0008E4C7 /* CHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0F25D1D2D166B0008E4C7 /* CHHomeViewController.m */; };
+		3BA0F2731D2D166B0008E4C7 /* CHLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0F25F1D2D166B0008E4C7 /* CHLoginViewController.m */; };
+		3BA0F2741D2D166B0008E4C7 /* CHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0F2611D2D166B0008E4C7 /* CHNavigationController.m */; };
+		3BA0F2751D2D166B0008E4C7 /* CHReLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0F2631D2D166B0008E4C7 /* CHReLoginViewController.m */; };
+		3BA0F2761D2D166B0008E4C7 /* CHTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0F2651D2D166B0008E4C7 /* CHTabBarController.m */; };
+		3BA0F2771D2D166B0008E4C7 /* CHService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0F2681D2D166B0008E4C7 /* CHService.m */; };
+		3BA0F2781D2D166B0008E4C7 /* CHAccountHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0F26B1D2D166B0008E4C7 /* CHAccountHelper.m */; };
+		3BA0F2791D2D166B0008E4C7 /* CHLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0F26E1D2D166B0008E4C7 /* CHLoginView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B0264391D2E32340036BF4C /* CHUserDefaultsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHUserDefaultsHelper.h; sourceTree = "<group>"; };
+		3B02643A1D2E32340036BF4C /* CHUserDefaultsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHUserDefaultsHelper.m; sourceTree = "<group>"; };
+		3BA0F2181D2CF3FF0008E4C7 /* iOS-FirstLoginAndReLoginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-FirstLoginAndReLoginDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA0F21C1D2CF3FF0008E4C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BA0F2251D2CF3FF0008E4C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BA0F2271D2CF3FF0008E4C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BA0F22A1D2CF3FF0008E4C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BA0F22C1D2CF3FF0008E4C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BA0F2541D2D166B0008E4C7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3BA0F2551D2D166B0008E4C7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3BA0F2571D2D166B0008E4C7 /* UIWindow+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Custom.h"; sourceTree = "<group>"; };
+		3BA0F2581D2D166B0008E4C7 /* UIWindow+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Custom.m"; sourceTree = "<group>"; };
+		3BA0F25A1D2D166B0008E4C7 /* CHAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHAboutViewController.h; sourceTree = "<group>"; };
+		3BA0F25B1D2D166B0008E4C7 /* CHAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHAboutViewController.m; sourceTree = "<group>"; };
+		3BA0F25C1D2D166B0008E4C7 /* CHHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHHomeViewController.h; sourceTree = "<group>"; };
+		3BA0F25D1D2D166B0008E4C7 /* CHHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHHomeViewController.m; sourceTree = "<group>"; };
+		3BA0F25E1D2D166B0008E4C7 /* CHLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLoginViewController.h; sourceTree = "<group>"; };
+		3BA0F25F1D2D166B0008E4C7 /* CHLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLoginViewController.m; sourceTree = "<group>"; };
+		3BA0F2601D2D166B0008E4C7 /* CHNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHNavigationController.h; sourceTree = "<group>"; };
+		3BA0F2611D2D166B0008E4C7 /* CHNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHNavigationController.m; sourceTree = "<group>"; };
+		3BA0F2621D2D166B0008E4C7 /* CHReLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHReLoginViewController.h; sourceTree = "<group>"; };
+		3BA0F2631D2D166B0008E4C7 /* CHReLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHReLoginViewController.m; sourceTree = "<group>"; };
+		3BA0F2641D2D166B0008E4C7 /* CHTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTabBarController.h; sourceTree = "<group>"; };
+		3BA0F2651D2D166B0008E4C7 /* CHTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTabBarController.m; sourceTree = "<group>"; };
+		3BA0F2671D2D166B0008E4C7 /* CHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHService.h; sourceTree = "<group>"; };
+		3BA0F2681D2D166B0008E4C7 /* CHService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHService.m; sourceTree = "<group>"; };
+		3BA0F26A1D2D166B0008E4C7 /* CHAccountHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHAccountHelper.h; sourceTree = "<group>"; };
+		3BA0F26B1D2D166B0008E4C7 /* CHAccountHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHAccountHelper.m; sourceTree = "<group>"; };
+		3BA0F26D1D2D166B0008E4C7 /* CHLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLoginView.h; sourceTree = "<group>"; };
+		3BA0F26E1D2D166B0008E4C7 /* CHLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLoginView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BA0F2151D2CF3FF0008E4C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B02643C1D2E33BF0036BF4C /* DataBaseHelper */ = {
+			isa = PBXGroup;
+			children = (
+				3B0264391D2E32340036BF4C /* CHUserDefaultsHelper.h */,
+				3B02643A1D2E32340036BF4C /* CHUserDefaultsHelper.m */,
+			);
+			name = DataBaseHelper;
+			sourceTree = "<group>";
+		};
+		3B02643D1D2E33CC0036BF4C /* CommonHelper */ = {
+			isa = PBXGroup;
+			children = (
+				3BA0F26A1D2D166B0008E4C7 /* CHAccountHelper.h */,
+				3BA0F26B1D2D166B0008E4C7 /* CHAccountHelper.m */,
+			);
+			name = CommonHelper;
+			sourceTree = "<group>";
+		};
+		3BA0F20F1D2CF3FF0008E4C7 = {
+			isa = PBXGroup;
+			children = (
+				3BA0F21A1D2CF3FF0008E4C7 /* iOS-FirstLoginAndReLoginDemo */,
+				3BA0F2191D2CF3FF0008E4C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BA0F2191D2CF3FF0008E4C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BA0F2181D2CF3FF0008E4C7 /* iOS-FirstLoginAndReLoginDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BA0F21A1D2CF3FF0008E4C7 /* iOS-FirstLoginAndReLoginDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3BA0F2531D2D166B0008E4C7 /* Application */,
+				3BA0F2561D2D166B0008E4C7 /* Categories */,
+				3BA0F2591D2D166B0008E4C7 /* Controller */,
+				3BA0F2661D2D166B0008E4C7 /* Service */,
+				3BA0F2691D2D166B0008E4C7 /* Tools */,
+				3BA0F26C1D2D166B0008E4C7 /* View */,
+				3BA0F21B1D2CF3FF0008E4C7 /* Supporting Files */,
+			);
+			path = "iOS-FirstLoginAndReLoginDemo";
+			sourceTree = "<group>";
+		};
+		3BA0F21B1D2CF3FF0008E4C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BA0F2241D2CF3FF0008E4C7 /* Main.storyboard */,
+				3BA0F2271D2CF3FF0008E4C7 /* Assets.xcassets */,
+				3BA0F2291D2CF3FF0008E4C7 /* LaunchScreen.storyboard */,
+				3BA0F22C1D2CF3FF0008E4C7 /* Info.plist */,
+				3BA0F21C1D2CF3FF0008E4C7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BA0F2531D2D166B0008E4C7 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				3BA0F2541D2D166B0008E4C7 /* AppDelegate.h */,
+				3BA0F2551D2D166B0008E4C7 /* AppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		3BA0F2561D2D166B0008E4C7 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				3BA0F2571D2D166B0008E4C7 /* UIWindow+Custom.h */,
+				3BA0F2581D2D166B0008E4C7 /* UIWindow+Custom.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		3BA0F2591D2D166B0008E4C7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3BA0F27D1D2D16BB0008E4C7 /* About */,
+				3BA0F27C1D2D16AE0008E4C7 /* Home */,
+				3BA0F27B1D2D16A00008E4C7 /* Login */,
+				3BA0F27A1D2D168E0008E4C7 /* Main */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3BA0F2661D2D166B0008E4C7 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				3BA0F2671D2D166B0008E4C7 /* CHService.h */,
+				3BA0F2681D2D166B0008E4C7 /* CHService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		3BA0F2691D2D166B0008E4C7 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				3B02643D1D2E33CC0036BF4C /* CommonHelper */,
+				3B02643C1D2E33BF0036BF4C /* DataBaseHelper */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		3BA0F26C1D2D166B0008E4C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3BA0F27E1D2D16D20008E4C7 /* Login */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3BA0F27A1D2D168E0008E4C7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3BA0F2601D2D166B0008E4C7 /* CHNavigationController.h */,
+				3BA0F2611D2D166B0008E4C7 /* CHNavigationController.m */,
+				3BA0F2641D2D166B0008E4C7 /* CHTabBarController.h */,
+				3BA0F2651D2D166B0008E4C7 /* CHTabBarController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		3BA0F27B1D2D16A00008E4C7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3BA0F25E1D2D166B0008E4C7 /* CHLoginViewController.h */,
+				3BA0F25F1D2D166B0008E4C7 /* CHLoginViewController.m */,
+				3BA0F2621D2D166B0008E4C7 /* CHReLoginViewController.h */,
+				3BA0F2631D2D166B0008E4C7 /* CHReLoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		3BA0F27C1D2D16AE0008E4C7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3BA0F25C1D2D166B0008E4C7 /* CHHomeViewController.h */,
+				3BA0F25D1D2D166B0008E4C7 /* CHHomeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		3BA0F27D1D2D16BB0008E4C7 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				3BA0F25A1D2D166B0008E4C7 /* CHAboutViewController.h */,
+				3BA0F25B1D2D166B0008E4C7 /* CHAboutViewController.m */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+		3BA0F27E1D2D16D20008E4C7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3BA0F26D1D2D166B0008E4C7 /* CHLoginView.h */,
+				3BA0F26E1D2D166B0008E4C7 /* CHLoginView.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BA0F2171D2CF3FF0008E4C7 /* iOS-FirstLoginAndReLoginDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BA0F22F1D2CF3FF0008E4C7 /* Build configuration list for PBXNativeTarget "iOS-FirstLoginAndReLoginDemo" */;
+			buildPhases = (
+				3BA0F2141D2CF3FF0008E4C7 /* Sources */,
+				3BA0F2151D2CF3FF0008E4C7 /* Frameworks */,
+				3BA0F2161D2CF3FF0008E4C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-FirstLoginAndReLoginDemo";
+			productName = "iOS-FirstLoginAndReLoginDemo";
+			productReference = 3BA0F2181D2CF3FF0008E4C7 /* iOS-FirstLoginAndReLoginDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BA0F2101D2CF3FF0008E4C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = CHwang;
+				TargetAttributes = {
+					3BA0F2171D2CF3FF0008E4C7 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = F8CFC96K38;
+					};
+				};
+			};
+			buildConfigurationList = 3BA0F2131D2CF3FF0008E4C7 /* Build configuration list for PBXProject "iOS-FirstLoginAndReLoginDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BA0F20F1D2CF3FF0008E4C7;
+			productRefGroup = 3BA0F2191D2CF3FF0008E4C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BA0F2171D2CF3FF0008E4C7 /* iOS-FirstLoginAndReLoginDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BA0F2161D2CF3FF0008E4C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA0F22B1D2CF3FF0008E4C7 /* LaunchScreen.storyboard in Resources */,
+				3BA0F2281D2CF3FF0008E4C7 /* Assets.xcassets in Resources */,
+				3BA0F2261D2CF3FF0008E4C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BA0F2141D2CF3FF0008E4C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA0F26F1D2D166B0008E4C7 /* AppDelegate.m in Sources */,
+				3BA0F21D1D2CF3FF0008E4C7 /* main.m in Sources */,
+				3BA0F2701D2D166B0008E4C7 /* UIWindow+Custom.m in Sources */,
+				3BA0F2791D2D166B0008E4C7 /* CHLoginView.m in Sources */,
+				3B02643B1D2E32340036BF4C /* CHUserDefaultsHelper.m in Sources */,
+				3BA0F2721D2D166B0008E4C7 /* CHHomeViewController.m in Sources */,
+				3BA0F2771D2D166B0008E4C7 /* CHService.m in Sources */,
+				3BA0F2711D2D166B0008E4C7 /* CHAboutViewController.m in Sources */,
+				3BA0F2731D2D166B0008E4C7 /* CHLoginViewController.m in Sources */,
+				3BA0F2751D2D166B0008E4C7 /* CHReLoginViewController.m in Sources */,
+				3BA0F2781D2D166B0008E4C7 /* CHAccountHelper.m in Sources */,
+				3BA0F2761D2D166B0008E4C7 /* CHTabBarController.m in Sources */,
+				3BA0F2741D2D166B0008E4C7 /* CHNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3BA0F2241D2CF3FF0008E4C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BA0F2251D2CF3FF0008E4C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BA0F2291D2CF3FF0008E4C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BA0F22A1D2CF3FF0008E4C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BA0F22D1D2CF3FF0008E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3BA0F22E1D2CF3FF0008E4C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BA0F2301D2CF3FF0008E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-FirstLoginAndReLoginDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CHwang.iOS-FirstLoginAndReLoginDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BA0F2311D2CF3FF0008E4C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-FirstLoginAndReLoginDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CHwang.iOS-FirstLoginAndReLoginDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BA0F2131D2CF3FF0008E4C7 /* Build configuration list for PBXProject "iOS-FirstLoginAndReLoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA0F22D1D2CF3FF0008E4C7 /* Debug */,
+				3BA0F22E1D2CF3FF0008E4C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BA0F22F1D2CF3FF0008E4C7 /* Build configuration list for PBXNativeTarget "iOS-FirstLoginAndReLoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA0F2301D2CF3FF0008E4C7 /* Debug */,
+				3BA0F2311D2CF3FF0008E4C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BA0F2101D2CF3FF0008E4C7 /* Project object */;
+}
