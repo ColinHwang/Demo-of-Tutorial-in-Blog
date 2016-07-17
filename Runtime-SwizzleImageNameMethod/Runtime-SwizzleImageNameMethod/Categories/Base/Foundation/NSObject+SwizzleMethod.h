@@ -10,6 +10,12 @@
 
 @interface NSObject (SwizzleMethod)
 
+/**
+*  Swap two class method's implementation in one class.
+*
+*  @param originalSel original Selector.
+*  @param newSel      new Selector.
+*/
 + (BOOL)swizzleClassMethod:(SEL)originalSel withNewMethod:(SEL)newSel;
 
 @end
