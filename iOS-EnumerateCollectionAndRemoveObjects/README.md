@@ -1,5 +1,5 @@
 # Enumerate Collection and Remove Objects from the Specified Class
-A demo of enumerating collection(NSArry, NSDictionary, NSSet) and removing objects of collection from the specified class at the same time.
+A demo of enumerating collection(NSArray, NSDictionary, NSSet) and removing objects of collection from the specified class at the same time.
 
 Also, it provides some category methods to implement it easily.
 
