@@ -4,3 +4,11 @@ A demo of enumerating collection(NSArray, NSDictionary, NSSet) and removing obje
 Also, it provides some category methods to implement it easily.
 
 See more: http://www.colinhwang.com/2016/07/27/enumate-collections-and-remove-objects
+
+<br />
+# 遍历集合并移除集合内指定类别元素
+遍历集合(NSArray, NSDictionary, NSSet)并移除集合内指定类别元素示例。
+
+同时，示例内提供了些分类方法以方便实现。
+
+更多：http://www.colinhwang.com/2016/07/27/enumate-collections-and-remove-objects
