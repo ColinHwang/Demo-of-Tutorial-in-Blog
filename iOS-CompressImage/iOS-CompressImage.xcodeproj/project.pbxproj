@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BD5DDBF1D4B8980007261EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD5DDBE1D4B8980007261EE /* main.m */; };
+		3BD5DDC21D4B8980007261EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD5DDC11D4B8980007261EE /* AppDelegate.m */; };
+		3BD5DDC51D4B8980007261EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD5DDC41D4B8980007261EE /* ViewController.m */; };
+		3BD5DDC81D4B8980007261EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BD5DDC61D4B8980007261EE /* Main.storyboard */; };
+		3BD5DDCA1D4B8980007261EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BD5DDC91D4B8980007261EE /* Assets.xcassets */; };
+		3BD5DDCD1D4B8980007261EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BD5DDCB1D4B8980007261EE /* LaunchScreen.storyboard */; };
+		3BD5DDD71D4B89C7007261EE /* UIImage+CompressImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD5DDD61D4B89C7007261EE /* UIImage+CompressImage.m */; };
+		3BD5DDD91D4B8CD9007261EE /* test_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BD5DDD81D4B8CD9007261EE /* test_1.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3BD5DDBA1D4B8980007261EE /* iOS-CompressImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-CompressImage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BD5DDBE1D4B8980007261EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BD5DDC01D4B8980007261EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3BD5DDC11D4B8980007261EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3BD5DDC31D4B8980007261EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3BD5DDC41D4B8980007261EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3BD5DDC71D4B8980007261EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BD5DDC91D4B8980007261EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BD5DDCC1D4B8980007261EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BD5DDCE1D4B8980007261EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BD5DDD51D4B89C7007261EE /* UIImage+CompressImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CompressImage.h"; sourceTree = "<group>"; };
+		3BD5DDD61D4B89C7007261EE /* UIImage+CompressImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CompressImage.m"; sourceTree = "<group>"; };
+		3BD5DDD81D4B8CD9007261EE /* test_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = test_1.jpg; path = CompressImage/test_1.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BD5DDB71D4B8980007261EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BD5DDB11D4B8980007261EE = {
+			isa = PBXGroup;
+			children = (
+				3BD5DDBC1D4B8980007261EE /* iOS-CompressImage */,
+				3BD5DDBB1D4B8980007261EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BD5DDBB1D4B8980007261EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BD5DDBA1D4B8980007261EE /* iOS-CompressImage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BD5DDBC1D4B8980007261EE /* iOS-CompressImage */ = {
+			isa = PBXGroup;
+			children = (
+				3BD5DDD81D4B8CD9007261EE /* test_1.jpg */,
+				3BD5DDD41D4B89A2007261EE /* CompressImage */,
+				3BD5DDC01D4B8980007261EE /* AppDelegate.h */,
+				3BD5DDC11D4B8980007261EE /* AppDelegate.m */,
+				3BD5DDC31D4B8980007261EE /* ViewController.h */,
+				3BD5DDC41D4B8980007261EE /* ViewController.m */,
+				3BD5DDC61D4B8980007261EE /* Main.storyboard */,
+				3BD5DDC91D4B8980007261EE /* Assets.xcassets */,
+				3BD5DDCB1D4B8980007261EE /* LaunchScreen.storyboard */,
+				3BD5DDCE1D4B8980007261EE /* Info.plist */,
+				3BD5DDBD1D4B8980007261EE /* Supporting Files */,
+			);
+			path = "iOS-CompressImage";
+			sourceTree = "<group>";
+		};
+		3BD5DDBD1D4B8980007261EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BD5DDBE1D4B8980007261EE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BD5DDD41D4B89A2007261EE /* CompressImage */ = {
+			isa = PBXGroup;
+			children = (
+				3BD5DDD51D4B89C7007261EE /* UIImage+CompressImage.h */,
+				3BD5DDD61D4B89C7007261EE /* UIImage+CompressImage.m */,
+			);
+			path = CompressImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BD5DDB91D4B8980007261EE /* iOS-CompressImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BD5DDD11D4B8980007261EE /* Build configuration list for PBXNativeTarget "iOS-CompressImage" */;
+			buildPhases = (
+				3BD5DDB61D4B8980007261EE /* Sources */,
+				3BD5DDB71D4B8980007261EE /* Frameworks */,
+				3BD5DDB81D4B8980007261EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-CompressImage";
+			productName = "iOS-CompressImage";
+			productReference = 3BD5DDBA1D4B8980007261EE /* iOS-CompressImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BD5DDB21D4B8980007261EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = CHwang;
+				TargetAttributes = {
+					3BD5DDB91D4B8980007261EE = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = F8CFC96K38;
+					};
+				};
+			};
+			buildConfigurationList = 3BD5DDB51D4B8980007261EE /* Build configuration list for PBXProject "iOS-CompressImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BD5DDB11D4B8980007261EE;
+			productRefGroup = 3BD5DDBB1D4B8980007261EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BD5DDB91D4B8980007261EE /* iOS-CompressImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BD5DDB81D4B8980007261EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD5DDCD1D4B8980007261EE /* LaunchScreen.storyboard in Resources */,
+				3BD5DDD91D4B8CD9007261EE /* test_1.jpg in Resources */,
+				3BD5DDCA1D4B8980007261EE /* Assets.xcassets in Resources */,
+				3BD5DDC81D4B8980007261EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BD5DDB61D4B8980007261EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD5DDC51D4B8980007261EE /* ViewController.m in Sources */,
+				3BD5DDD71D4B89C7007261EE /* UIImage+CompressImage.m in Sources */,
+				3BD5DDC21D4B8980007261EE /* AppDelegate.m in Sources */,
+				3BD5DDBF1D4B8980007261EE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3BD5DDC61D4B8980007261EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BD5DDC71D4B8980007261EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BD5DDCB1D4B8980007261EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BD5DDCC1D4B8980007261EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BD5DDCF1D4B8980007261EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3BD5DDD01D4B8980007261EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BD5DDD21D4B8980007261EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-CompressImage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CHwang.iOS-CompressImage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BD5DDD31D4B8980007261EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-CompressImage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CHwang.iOS-CompressImage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BD5DDB51D4B8980007261EE /* Build configuration list for PBXProject "iOS-CompressImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD5DDCF1D4B8980007261EE /* Debug */,
+				3BD5DDD01D4B8980007261EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BD5DDD11D4B8980007261EE /* Build configuration list for PBXNativeTarget "iOS-CompressImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD5DDD21D4B8980007261EE /* Debug */,
+				3BD5DDD31D4B8980007261EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BD5DDB21D4B8980007261EE /* Project object */;
+}
