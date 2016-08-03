@@ -1,5 +1,5 @@
 # iOS-CompressImage
-A demo of useing binary search to compress Image.
+A demo of using binary search to compress Image.
 
 Also, it provides category methods of UIImage to implement it easily.
 
