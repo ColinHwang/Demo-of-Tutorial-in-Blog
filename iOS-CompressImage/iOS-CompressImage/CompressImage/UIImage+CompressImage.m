@@ -87,10 +87,10 @@ NS_INLINE CGFloat clampCompressionFactor(CGFloat factor)
     return [newImage compressToJPEGFormatDataWithFactor:1e-10 maxFileSize:maxFileSize];
 }
 
-- (NSData *)resetImageDataWithImageSize:(CGSize)newSize maxFileSize:(uint64_t)maxFileSize
+- (NSData *)resetImageDataWithImageSize:(CGSize)size maxFileSize:(uint64_t)maxFileSize
 {
     // Image Size
-    UIImage *newImage = [self imageByResizeToSize:newSize];
+    UIImage *newImage = [self imageByResizeToSize:size];
     
     // File Size
     return [newImage compressToJPEGFormatDataWithFactor:1e-10 maxFileSize:maxFileSize];
