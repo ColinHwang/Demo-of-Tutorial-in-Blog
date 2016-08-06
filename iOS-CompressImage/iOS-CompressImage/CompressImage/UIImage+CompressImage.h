@@ -23,7 +23,7 @@
  *  @param width 指定宽度
  *  @param scale 是否按屏幕分辨比放大
  */
-- (UIImage *)imageByResizeToWidth:(CGFloat)width sclae:(BOOL)scale;
+- (UIImage *)imageByResizeToWidth:(CGFloat)width scale:(BOOL)scale;
 
 /**
  *  根据指定尺寸，调整图片尺寸(图片可能会被拉伸)
@@ -38,7 +38,7 @@
  *  @param size  指定尺寸
  *  @param scale 是否按屏幕分辨比放大
  */
-- (UIImage *)imageByResizeToSize:(CGSize)size sclae:(BOOL)scale;
+- (UIImage *)imageByResizeToSize:(CGSize)size scale:(BOOL)scale;
 
 /**
  *  根据压缩精度系数及文件大小，获取压缩后的JPEG格式的图片数据

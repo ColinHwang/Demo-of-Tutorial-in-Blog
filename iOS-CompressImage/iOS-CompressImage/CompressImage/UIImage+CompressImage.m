@@ -12,22 +12,22 @@
 
 - (UIImage *)imageByResizeToWidth:(CGFloat)width
 {
-    return [self imageByResizeToWidth:width sclae:YES];
+    return [self imageByResizeToWidth:width scale:YES];
 }
 
-- (UIImage *)imageByResizeToWidth:(CGFloat)width sclae:(BOOL)scale
+- (UIImage *)imageByResizeToWidth:(CGFloat)width scale:(BOOL)scale
 {
     if (self.size.width <= 0 || self.size.height <= 0) return nil;
     CGFloat height = width * self.size.height / self.size.width;
-    return [self imageByResizeToSize:CGSizeMake(width, height) sclae:scale];
+    return [self imageByResizeToSize:CGSizeMake(width, height) scale:scale];
 }
 
 - (UIImage *)imageByResizeToSize:(CGSize)size
 {
-    return [self imageByResizeToSize:size sclae:YES];
+    return [self imageByResizeToSize:size scale:YES];
 }
 
-- (UIImage *)imageByResizeToSize:(CGSize)size sclae:(BOOL)scale
+- (UIImage *)imageByResizeToSize:(CGSize)size scale:(BOOL)scale
 {
     if (size.width <= 0 || size.height <= 0) return nil;
     CGFloat scaleFactor = scale ? self.scale : 1.0;
