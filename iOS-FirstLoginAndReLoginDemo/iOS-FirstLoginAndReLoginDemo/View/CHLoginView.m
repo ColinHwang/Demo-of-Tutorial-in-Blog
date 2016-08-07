@@ -11,7 +11,6 @@
 @interface CHLoginView ()
 
 @property (nonatomic, weak) UIButton *loginButton;
-
 @property (nonatomic, weak) UIButton *lookArroundButton;
 
 @end

@@ -1,6 +1,6 @@
 //
 //  CHLoginViewController.m
-//  iOS-FirstLoginAndReLoginDemo
+//  iOS-FirstLoginAndloginDemo
 //
 //  Created by colin on 16/7/6.
 //  Copyright © 2016年 CHwang. All rights reserved.
@@ -14,23 +14,23 @@
 
 @interface CHLoginViewController () <CHLoginViewDelegate>
 
-@property (nonatomic, weak) CHLoginView *reLoginView;
+@property (nonatomic, weak) CHLoginView *loginView;
 
 @end
 
 @implementation CHLoginViewController
 
 #pragma mark - Controls
-- (CHLoginView *)reLoginView
+- (CHLoginView *)loginView
 {
-    if (!_reLoginView)
+    if (!_loginView)
     {
-        CHLoginView *reLoginView = [CHLoginView new];
+        CHLoginView *loginView = [CHLoginView new];
         
-        [self.view addSubview:reLoginView];
-        self.reLoginView = reLoginView;
+        [self.view addSubview:loginView];
+        self.loginView = loginView;
     }
-    return _reLoginView;
+    return _loginView;
 }
 
 #pragma mark - Life cycle
@@ -38,7 +38,7 @@
 {
     [super viewDidLoad];
     
-    self.reLoginView.delegate = self;
+    self.loginView.delegate = self;
     
     self.view.backgroundColor = [UIColor lightGrayColor];
     [self setupNavigation];
@@ -48,7 +48,7 @@
 {
     [super viewWillLayoutSubviews];
     
-    self.reLoginView.frame = [UIScreen mainScreen].bounds;
+    self.loginView.frame = [UIScreen mainScreen].bounds;
 }
 
 #pragma mark - Touch Event
