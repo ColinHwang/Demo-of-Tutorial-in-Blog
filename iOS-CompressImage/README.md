@@ -1,4 +1,4 @@
-# iOS-CompressImage
+# iOS-CompressImage [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/ColinHwang/Demo-of-Tutorial-in-Blog/master/iOS-CompressImage/LICENSE)&nbsp;
 A demo of using binary search to compress Image.
 
 Also, it provides category methods of UIImage to implement it easily.
