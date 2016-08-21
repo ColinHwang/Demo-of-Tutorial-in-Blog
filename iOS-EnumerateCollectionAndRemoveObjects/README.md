@@ -1,4 +1,4 @@
-# Enumerate Collection and Remove Objects from the Specified Class
+# Enumerate Collection and Remove Objects from the Specified Class [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/ColinHwang/Demo-of-Tutorial-in-Blog/master/iOS-EnumerateCollectionAndRemoveObjects/LICENSE)&nbsp;
 A demo of enumerating collection(NSArray, NSDictionary, NSSet) and removing objects of collection from the specified class at the same time.
 
 Also, it provides some category methods to implement it easily.
