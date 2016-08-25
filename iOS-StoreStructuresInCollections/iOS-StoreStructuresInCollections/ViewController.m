@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  iOS-StoreStructutesInCollections
+//  iOS-StoreStructuresInCollections
 //
 //  Created by colin on 16/8/25.
 //  Copyright © 2016年 CHwang. All rights reserved.
@@ -20,13 +20,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    
+
     // Test Datas
     NSString *testStr = @"test";
     CGColorRef testRed = [UIColor redColor].CGColor;
     CGColorRef testWhite = [UIColor whiteColor].CGColor;
-[NSValue valueWithCGSize:<#(CGSize)#>]
+
     // Dictionary
     NSMutableDictionary *testDictionary = [NSMutableDictionary dictionary];
     [testDictionary setObject:testStr forKey:@"textStr"];
@@ -35,7 +34,7 @@
     
     NSLog(@"testDictionary--%@", testDictionary);
     NSLog(@"testDictionary--testRed--%@", [testDictionary CGColorForKey:@"textRed"]);
-
+    
     // Array
     NSMutableArray *testArray = [NSMutableArray array];
     [testArray addCGColor:testRed];

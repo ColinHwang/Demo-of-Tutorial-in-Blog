@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>iOS-StoreStructutesInCollections.xcscheme</key>
+		<key>iOS-StoreStructuresInCollections.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3B0CDE701D6EDFB700F17A09</key>
+		<key>3B0CDEAC1D6F0A7500F17A09</key>
 		<dict>
 			<key>primary</key>
 			<true/>

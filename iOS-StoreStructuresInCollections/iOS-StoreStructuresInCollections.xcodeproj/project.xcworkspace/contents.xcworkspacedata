@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:iOS-StoreStructutesInCollections.xcodeproj">
+      location = "self:iOS-StoreStructuresInCollections.xcodeproj">
    </FileRef>
 </Workspace>

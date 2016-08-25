@@ -1,6 +1,6 @@
 //
 //  NSValue+Boxing.m
-//  iOS-StoreStructutesInCollections
+//  iOS-StoreStructuresInCollections
 //
 //  Created by colin on 16/8/25.
 //  Copyright © 2016年 CHwang. All rights reserved.

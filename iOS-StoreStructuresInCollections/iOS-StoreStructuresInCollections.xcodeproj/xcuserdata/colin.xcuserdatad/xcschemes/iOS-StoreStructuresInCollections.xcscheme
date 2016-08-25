@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3B0CDE701D6EDFB700F17A09"
-               BuildableName = "iOS-StoreStructutesInCollections.app"
-               BlueprintName = "iOS-StoreStructutesInCollections"
-               ReferencedContainer = "container:iOS-StoreStructutesInCollections.xcodeproj">
+               BlueprintIdentifier = "3B0CDEAC1D6F0A7500F17A09"
+               BuildableName = "iOS-StoreStructuresInCollections.app"
+               BlueprintName = "iOS-StoreStructuresInCollections"
+               ReferencedContainer = "container:iOS-StoreStructuresInCollections.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3B0CDE701D6EDFB700F17A09"
-            BuildableName = "iOS-StoreStructutesInCollections.app"
-            BlueprintName = "iOS-StoreStructutesInCollections"
-            ReferencedContainer = "container:iOS-StoreStructutesInCollections.xcodeproj">
+            BlueprintIdentifier = "3B0CDEAC1D6F0A7500F17A09"
+            BuildableName = "iOS-StoreStructuresInCollections.app"
+            BlueprintName = "iOS-StoreStructuresInCollections"
+            ReferencedContainer = "container:iOS-StoreStructuresInCollections.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3B0CDE701D6EDFB700F17A09"
-            BuildableName = "iOS-StoreStructutesInCollections.app"
-            BlueprintName = "iOS-StoreStructutesInCollections"
-            ReferencedContainer = "container:iOS-StoreStructutesInCollections.xcodeproj">
+            BlueprintIdentifier = "3B0CDEAC1D6F0A7500F17A09"
+            BuildableName = "iOS-StoreStructuresInCollections.app"
+            BlueprintName = "iOS-StoreStructuresInCollections"
+            ReferencedContainer = "container:iOS-StoreStructuresInCollections.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3B0CDE701D6EDFB700F17A09"
-            BuildableName = "iOS-StoreStructutesInCollections.app"
-            BlueprintName = "iOS-StoreStructutesInCollections"
-            ReferencedContainer = "container:iOS-StoreStructutesInCollections.xcodeproj">
+            BlueprintIdentifier = "3B0CDEAC1D6F0A7500F17A09"
+            BuildableName = "iOS-StoreStructuresInCollections.app"
+            BlueprintName = "iOS-StoreStructuresInCollections"
+            ReferencedContainer = "container:iOS-StoreStructuresInCollections.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
