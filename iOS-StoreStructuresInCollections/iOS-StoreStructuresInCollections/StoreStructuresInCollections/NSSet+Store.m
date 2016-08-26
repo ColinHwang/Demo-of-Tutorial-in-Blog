@@ -27,7 +27,7 @@
     return NULL;
 }
 
-- (BOOL)containsCGColort:(CGColorRef)color
+- (BOOL)containsCGColor:(CGColorRef)color
 {
     return [self containsObject:[NSValue valueWithCGColor:color]];
 }

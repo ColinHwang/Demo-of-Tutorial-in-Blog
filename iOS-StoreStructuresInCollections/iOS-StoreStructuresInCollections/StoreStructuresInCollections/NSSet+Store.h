@@ -13,7 +13,7 @@
 
 - (CGColorRef)CGColorMember:(CGColorRef)color;
 - (CGColorRef)anyCGColor;
-- (BOOL)containsCGColort:(CGColorRef)color;
+- (BOOL)containsCGColor:(CGColorRef)color;
 
 @end
 

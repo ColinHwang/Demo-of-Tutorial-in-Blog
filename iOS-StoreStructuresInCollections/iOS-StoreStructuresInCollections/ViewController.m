@@ -56,7 +56,7 @@
     NSLog(@"testSet--%@", testSet);
     NSLog(@"testSet--CGColorMember--%@", [testSet CGColorMember:testRed]);
     NSLog(@"testSet--anyCGColor--%@", [testSet anyCGColor]);
-    NSLog(@"testSet--containsCGColort--%d", [testSet containsCGColort:testRed]);
+    NSLog(@"testSet--containsCGColort--%d", [testSet containsCGColor:testRed]);
 }
 
 - (void)didReceiveMemoryWarning {
