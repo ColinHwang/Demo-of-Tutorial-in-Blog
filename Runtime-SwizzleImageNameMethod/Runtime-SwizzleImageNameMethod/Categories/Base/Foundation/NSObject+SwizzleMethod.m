@@ -24,4 +24,15 @@
     return YES;
 }
 
+#pragma mark - Associate Value
+- (void)setAssociateValue:(id)value withKey:(const void *)key
+{
+    objc_setAssociatedObject(self, key, value, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
+
+- (id)getAssociatedValueForKey:(const void *)key
+{
+    return objc_getAssociatedObject(self, key);
+}
+
 @end

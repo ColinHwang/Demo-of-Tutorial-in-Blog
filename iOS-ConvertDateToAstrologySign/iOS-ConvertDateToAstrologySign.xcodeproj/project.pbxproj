@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BBABE291D92DBE70074D5FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBABE281D92DBE70074D5FD /* main.m */; };
+		3BBABE2C1D92DBE70074D5FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBABE2B1D92DBE70074D5FD /* AppDelegate.m */; };
+		3BBABE2F1D92DBE70074D5FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBABE2E1D92DBE70074D5FD /* ViewController.m */; };
+		3BBABE321D92DBE70074D5FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BBABE301D92DBE70074D5FD /* Main.storyboard */; };
+		3BBABE341D92DBE70074D5FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BBABE331D92DBE70074D5FD /* Assets.xcassets */; };
+		3BBABE371D92DBE70074D5FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BBABE351D92DBE70074D5FD /* LaunchScreen.storyboard */; };
+		3BBABE411D92DC420074D5FD /* NSDate+ConvertToAstrologySign.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBABE401D92DC420074D5FD /* NSDate+ConvertToAstrologySign.m */; };
+		3BBABE441D92DD480074D5FD /* NSObject+AssociateValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBABE431D92DD480074D5FD /* NSObject+AssociateValue.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3BBABE241D92DBE70074D5FD /* iOS-ConvertDateToAstrologySign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-ConvertDateToAstrologySign.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BBABE281D92DBE70074D5FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BBABE2A1D92DBE70074D5FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3BBABE2B1D92DBE70074D5FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3BBABE2D1D92DBE70074D5FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3BBABE2E1D92DBE70074D5FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3BBABE311D92DBE70074D5FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BBABE331D92DBE70074D5FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BBABE361D92DBE70074D5FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BBABE381D92DBE70074D5FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BBABE3F1D92DC420074D5FD /* NSDate+ConvertToAstrologySign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ConvertToAstrologySign.h"; sourceTree = "<group>"; };
+		3BBABE401D92DC420074D5FD /* NSDate+ConvertToAstrologySign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ConvertToAstrologySign.m"; sourceTree = "<group>"; };
+		3BBABE421D92DD480074D5FD /* NSObject+AssociateValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AssociateValue.h"; sourceTree = "<group>"; };
+		3BBABE431D92DD480074D5FD /* NSObject+AssociateValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AssociateValue.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BBABE211D92DBE70074D5FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BBABE1B1D92DBE70074D5FD = {
+			isa = PBXGroup;
+			children = (
+				3BBABE261D92DBE70074D5FD /* iOS-ConvertDateToAstrologySign */,
+				3BBABE251D92DBE70074D5FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BBABE251D92DBE70074D5FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BBABE241D92DBE70074D5FD /* iOS-ConvertDateToAstrologySign.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BBABE261D92DBE70074D5FD /* iOS-ConvertDateToAstrologySign */ = {
+			isa = PBXGroup;
+			children = (
+				3BBABE3E1D92DC1D0074D5FD /* ConvertDateToAstrologySign */,
+				3BBABE2A1D92DBE70074D5FD /* AppDelegate.h */,
+				3BBABE2B1D92DBE70074D5FD /* AppDelegate.m */,
+				3BBABE2D1D92DBE70074D5FD /* ViewController.h */,
+				3BBABE2E1D92DBE70074D5FD /* ViewController.m */,
+				3BBABE301D92DBE70074D5FD /* Main.storyboard */,
+				3BBABE331D92DBE70074D5FD /* Assets.xcassets */,
+				3BBABE351D92DBE70074D5FD /* LaunchScreen.storyboard */,
+				3BBABE381D92DBE70074D5FD /* Info.plist */,
+				3BBABE271D92DBE70074D5FD /* Supporting Files */,
+			);
+			path = "iOS-ConvertDateToAstrologySign";
+			sourceTree = "<group>";
+		};
+		3BBABE271D92DBE70074D5FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BBABE281D92DBE70074D5FD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BBABE3E1D92DC1D0074D5FD /* ConvertDateToAstrologySign */ = {
+			isa = PBXGroup;
+			children = (
+				3BBABE3F1D92DC420074D5FD /* NSDate+ConvertToAstrologySign.h */,
+				3BBABE401D92DC420074D5FD /* NSDate+ConvertToAstrologySign.m */,
+				3BBABE421D92DD480074D5FD /* NSObject+AssociateValue.h */,
+				3BBABE431D92DD480074D5FD /* NSObject+AssociateValue.m */,
+			);
+			path = ConvertDateToAstrologySign;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BBABE231D92DBE70074D5FD /* iOS-ConvertDateToAstrologySign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BBABE3B1D92DBE70074D5FD /* Build configuration list for PBXNativeTarget "iOS-ConvertDateToAstrologySign" */;
+			buildPhases = (
+				3BBABE201D92DBE70074D5FD /* Sources */,
+				3BBABE211D92DBE70074D5FD /* Frameworks */,
+				3BBABE221D92DBE70074D5FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-ConvertDateToAstrologySign";
+			productName = "iOS-ConvertDateToAstrologySign";
+			productReference = 3BBABE241D92DBE70074D5FD /* iOS-ConvertDateToAstrologySign.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BBABE1C1D92DBE70074D5FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = CHwang;
+				TargetAttributes = {
+					3BBABE231D92DBE70074D5FD = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = F8CFC96K38;
+					};
+				};
+			};
+			buildConfigurationList = 3BBABE1F1D92DBE70074D5FD /* Build configuration list for PBXProject "iOS-ConvertDateToAstrologySign" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BBABE1B1D92DBE70074D5FD;
+			productRefGroup = 3BBABE251D92DBE70074D5FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BBABE231D92DBE70074D5FD /* iOS-ConvertDateToAstrologySign */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BBABE221D92DBE70074D5FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBABE371D92DBE70074D5FD /* LaunchScreen.storyboard in Resources */,
+				3BBABE341D92DBE70074D5FD /* Assets.xcassets in Resources */,
+				3BBABE321D92DBE70074D5FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BBABE201D92DBE70074D5FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBABE2F1D92DBE70074D5FD /* ViewController.m in Sources */,
+				3BBABE411D92DC420074D5FD /* NSDate+ConvertToAstrologySign.m in Sources */,
+				3BBABE2C1D92DBE70074D5FD /* AppDelegate.m in Sources */,
+				3BBABE441D92DD480074D5FD /* NSObject+AssociateValue.m in Sources */,
+				3BBABE291D92DBE70074D5FD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3BBABE301D92DBE70074D5FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BBABE311D92DBE70074D5FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BBABE351D92DBE70074D5FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BBABE361D92DBE70074D5FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BBABE391D92DBE70074D5FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3BBABE3A1D92DBE70074D5FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BBABE3C1D92DBE70074D5FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-ConvertDateToAstrologySign/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CHwang.iOS-ConvertDateToAstrologySign";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BBABE3D1D92DBE70074D5FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-ConvertDateToAstrologySign/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CHwang.iOS-ConvertDateToAstrologySign";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BBABE1F1D92DBE70074D5FD /* Build configuration list for PBXProject "iOS-ConvertDateToAstrologySign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BBABE391D92DBE70074D5FD /* Debug */,
+				3BBABE3A1D92DBE70074D5FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BBABE3B1D92DBE70074D5FD /* Build configuration list for PBXNativeTarget "iOS-ConvertDateToAstrologySign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BBABE3C1D92DBE70074D5FD /* Debug */,
+				3BBABE3D1D92DBE70074D5FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BBABE1C1D92DBE70074D5FD /* Project object */;
+}

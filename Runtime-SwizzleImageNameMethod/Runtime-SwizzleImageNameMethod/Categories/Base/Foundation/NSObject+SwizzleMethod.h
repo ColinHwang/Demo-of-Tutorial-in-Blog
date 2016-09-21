@@ -18,4 +18,9 @@
 */
 + (BOOL)swizzleClassMethod:(SEL)originalSel withNewMethod:(SEL)newSel;
 
+#pragma mark - Associate Value
+- (void)setAssociateValue:(id)value withKey:(const void *)key;
+
+- (id)getAssociatedValueForKey:(const void *)key;
+
 @end
