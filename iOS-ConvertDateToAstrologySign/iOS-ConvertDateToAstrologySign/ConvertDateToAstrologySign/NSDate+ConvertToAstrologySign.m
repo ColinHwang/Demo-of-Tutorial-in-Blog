@@ -47,7 +47,7 @@ static const int NS_DATE_ASTROLOGY_ZODIAC_SIGNS;
     return sign;
 }
 
-- (NSDateAstrologyChineseZodiacSign)ChineseZodiacSign
+- (NSDateAstrologyChineseZodiacSign)chineseZodiacSign
 {
     NSCalendar *chineseCalendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierChinese];
     NSDateComponents *components = [chineseCalendar components:NSCalendarUnitYear fromDate:self];

@@ -20,7 +20,7 @@
 
     NSDate *date = [NSDate date];
     
-    NSLog(@"\nAstrology Zodiac Sign:%ld\nChinese Zodiac Sign:%ld\n", (long)date.zodiacSign, (long)date.ChineseZodiacSign);
+    NSLog(@"\nAstrology Zodiac Sign:%ld\nChinese Zodiac Sign:%ld\n", (long)date.zodiacSign, (long)date.chineseZodiacSign);
 }
 
 - (void)didReceiveMemoryWarning {

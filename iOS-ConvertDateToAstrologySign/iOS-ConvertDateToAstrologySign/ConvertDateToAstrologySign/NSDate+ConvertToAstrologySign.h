@@ -44,6 +44,6 @@ typedef NS_ENUM(NSInteger, NSDateAstrologyZodiacSign) {
 
 @property (nonatomic, readonly) NSDateAstrologyZodiacSign zodiacSign;
 
-@property (nonatomic, readonly) NSDateAstrologyChineseZodiacSign ChineseZodiacSign;
+@property (nonatomic, readonly) NSDateAstrologyChineseZodiacSign chineseZodiacSign;
 
 @end
