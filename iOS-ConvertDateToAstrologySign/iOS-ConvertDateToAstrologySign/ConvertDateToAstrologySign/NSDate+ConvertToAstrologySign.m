@@ -7,22 +7,8 @@
 //
 
 #import "NSDate+ConvertToAstrologySign.h"
-#import "NSObject+AssociateValue.h"
-
-static const int NS_DATE_ASTROLOGY_ZODIAC_SIGNS;
 
 @implementation NSDate (ConvertToAstrologySign)
-
-- (NSArray *)astrologyZodiacSigns
-{
-    NSArray *astrologyZodiacSigns = [self getAssociatedValueForKey:&NS_DATE_ASTROLOGY_ZODIAC_SIGNS];
-    if (!astrologyZodiacSigns)
-    {
-        astrologyZodiacSigns = @[@120, @219, @321, @420, @521, @621, @723, @823, @923, @1023, @1122, @1222];
-        [self setAssociateValue:astrologyZodiacSigns withKey:&NS_DATE_ASTROLOGY_ZODIAC_SIGNS];
-    }
-    return astrologyZodiacSigns;
-}
 
 - (NSDateAstrologyZodiacSign)zodiacSign
 {
@@ -31,7 +17,11 @@ static const int NS_DATE_ASTROLOGY_ZODIAC_SIGNS;
     
     NSInteger temp = components.month * 100 + components.day;
     
-    NSArray *signs = [self astrologyZodiacSigns];
+    static dispatch_once_t onceToken;
+    static NSArray<NSNumber *> *signs;
+    dispatch_once(&onceToken, ^{
+        signs = @[@120, @219, @321, @420, @521, @621, @723, @823, @923, @1023, @1122, @1222];
+    });
     
     __block NSDateAstrologyZodiacSign sign = NSDateAstrologyZodiacSignCapricorn;
     

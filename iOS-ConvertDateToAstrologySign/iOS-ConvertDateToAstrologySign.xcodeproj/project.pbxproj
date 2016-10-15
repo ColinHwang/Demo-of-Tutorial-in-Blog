@@ -14,7 +14,6 @@
 		3BBABE341D92DBE70074D5FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BBABE331D92DBE70074D5FD /* Assets.xcassets */; };
 		3BBABE371D92DBE70074D5FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BBABE351D92DBE70074D5FD /* LaunchScreen.storyboard */; };
 		3BBABE411D92DC420074D5FD /* NSDate+ConvertToAstrologySign.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBABE401D92DC420074D5FD /* NSDate+ConvertToAstrologySign.m */; };
-		3BBABE441D92DD480074D5FD /* NSObject+AssociateValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBABE431D92DD480074D5FD /* NSObject+AssociateValue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +29,6 @@
 		3BBABE381D92DBE70074D5FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BBABE3F1D92DC420074D5FD /* NSDate+ConvertToAstrologySign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ConvertToAstrologySign.h"; sourceTree = "<group>"; };
 		3BBABE401D92DC420074D5FD /* NSDate+ConvertToAstrologySign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ConvertToAstrologySign.m"; sourceTree = "<group>"; };
-		3BBABE421D92DD480074D5FD /* NSObject+AssociateValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AssociateValue.h"; sourceTree = "<group>"; };
-		3BBABE431D92DD480074D5FD /* NSObject+AssociateValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AssociateValue.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,8 +88,6 @@
 			children = (
 				3BBABE3F1D92DC420074D5FD /* NSDate+ConvertToAstrologySign.h */,
 				3BBABE401D92DC420074D5FD /* NSDate+ConvertToAstrologySign.m */,
-				3BBABE421D92DD480074D5FD /* NSObject+AssociateValue.h */,
-				3BBABE431D92DD480074D5FD /* NSObject+AssociateValue.m */,
 			);
 			path = ConvertDateToAstrologySign;
 			sourceTree = "<group>";
@@ -171,7 +166,6 @@
 				3BBABE2F1D92DBE70074D5FD /* ViewController.m in Sources */,
 				3BBABE411D92DC420074D5FD /* NSDate+ConvertToAstrologySign.m in Sources */,
 				3BBABE2C1D92DBE70074D5FD /* AppDelegate.m in Sources */,
-				3BBABE441D92DD480074D5FD /* NSObject+AssociateValue.m in Sources */,
 				3BBABE291D92DBE70074D5FD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,6 +315,7 @@
 				3BBABE3D1D92DBE70074D5FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
