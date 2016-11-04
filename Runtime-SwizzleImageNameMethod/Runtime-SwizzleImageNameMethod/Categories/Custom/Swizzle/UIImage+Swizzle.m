@@ -13,8 +13,11 @@
 @implementation UIImage (Swizzle)
 
 + (void)load
-{    
-    [self swizzleClassMethod:@selector(imageNamed:) withNewMethod:@selector(imageWithContentName:)];
+{
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        [self swizzleClassMethod:@selector(imageNamed:) withNewMethod:@selector(imageWithContentName:)];
+    });
 }
 
 @end
